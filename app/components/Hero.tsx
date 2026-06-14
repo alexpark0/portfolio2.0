@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { profile, contact } from "../data";
+import Image from "next/image";
 
 const ROLES = [
   profile.role,
@@ -91,9 +92,7 @@ export default function Hero() {
           className="grid h-60 w-60 place-items-center rounded-full border border-border-subtle bg-bg-soft text-center sm:h-72 sm:w-72"
           style={{ animation: "pulse-ring 3.5s ease-out infinite" }}
         >
-          {/* Replace this block with:
-              <Image src="/me.jpg" alt="..." fill className="rounded-full object-cover" />
-              (drop me.jpg into /public) */}
+          <Image src="/IMG_9467.jpeg" alt="..." fill className="rounded-full object-cover" />
           <div className="px-6">
             <div className="text-4xl">📸</div>
             <p className="mt-2 text-sm text-muted">

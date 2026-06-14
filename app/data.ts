@@ -11,18 +11,18 @@ export const profile = {
   name: "Alex Park",
   role: "Software Engineer", // <- your headline / title
   tagline:
-    "I build thoughtful, performant software and enjoy turning hard problems into clean, simple products.",
-  location: "City, Country", // <- e.g. "San Francisco, CA"
+    "CS/AI @ Northeastern",
+  location: "New York, NY / Boston, MA", // <- e.g. "San Francisco, CA"
   // Short paragraphs for the About section
   about: [
-    "Hi, I'm Alex — a placeholder bio that you should replace with your real summary from LinkedIn. Talk about what you do, what you care about, and what you're great at.",
-    "I'm interested in [your focus areas]. When I'm not shipping code you'll find me [a personal detail to make it human].",
+    "I'm Alex Park, a Computer Science Student at Northeastern University concentrating in artificial intelligence.",
+    "In my free time, I love playing basketball, lifting weights, exploring cafes, and playing games.",
   ],
 };
 
 /* ---- Contact / social links -------------------------------------- */
 export const contact = {
-  email: "alexpark2805@gmail.com",
+  email: "park.ale@northeastern.edu",
   linkedin: "https://www.linkedin.com/in/alex-park-/",
   github: "https://github.com/alexpark0", // <- update if different
   // Add or remove as you like
@@ -43,41 +43,41 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    role: "Software Engineer",
-    company: "Company Name",
-    period: "2024 — Present",
-    location: "Remote",
+    role: "Quantitative Researcher Associate Co-op",
+    company: "Morgan Stanley - Parametric Division",
+    period: "Incoming July 2026",
+    location: "New York, NY",
     description:
-      "Placeholder role description — replace with what you actually did here.",
+      "TBD",
     highlights: [
-      "Shipped a key feature that moved an important metric.",
-      "Led or contributed to something technically meaningful.",
-      "Collaborated cross-functionally to deliver X.",
+      "TBD"
     ],
     accent: "maroon",
   },
   {
-    role: "Software Engineering Intern",
-    company: "Previous Company",
-    period: "Summer 2023",
-    location: "On-site",
+    role: "Software Developer Co-op",
+    company: "Verisk",
+    period: "Jul - Dec 2025",
+    location: "Boston, MA",
     description:
-      "Placeholder role description — what was the team and what did you build?",
+      "Exposure CSV Data Import",
     highlights: [
-      "Built a tool / service used by the team.",
-      "Improved performance or reliability of something.",
+      "Streamline data import workflows supporting catastrophe risk modeling, improving efficiency for clients",
+      "Developed a Python script to parse AWS Step Function logs, compute stage duration metrics, and generate interactive graphs in a nightly automation pipeline to visualize changes in import performance over time",
+      "Validated and tested REST APIs with Stoplight, Prism, and cURL to ensure contract accuracy and consistent endpoint behavior"
     ],
     accent: "blue",
   },
   {
-    role: "Your Earlier Role",
-    company: "Earlier Company / University Project",
-    period: "2022 — 2023",
+    role: "Software Engineer Intern",
+    company: "Revvity",
+    period: "May - Aug 2024",
     description:
-      "Another placeholder — feel free to add education here too, or remove this entry.",
+      "SonoVol & Digital Products",
     highlights: [
-      "Notable accomplishment one.",
-      "Notable accomplishment two.",
+      "Developed machine learning model to classify mouse poses (laying on back, stomach, side) in a given image for health condition detection with 90+% accuracy using PyTorch and AlexNet CNN architecture",
+      "Trained existing machine learning model used for health condition detection in mice by tagging and labeling mice anatomy on 200+ images using Computer Vision Annotation Tool (CV AT)",
+      "Mapped coordinates of input fields on dry blood spot cards used for newborn screening using React and GIMP"
     ],
     accent: "maroon",
   },
