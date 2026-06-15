@@ -147,14 +147,9 @@ export type Interest = {
 
 export const interests: Interest[] = [
   {
-    icon: "💻",
-    title: "Building Things",
-    blurb: "Side projects, hackathons, and tinkering with new tech.",
-  },
-  {
-    icon: "🏔️",
-    title: "The Outdoors",
-    blurb: "Hiking, travel, and being away from a screen now and then.",
+    icon: "🏀",
+    title: "Basketball",
+    blurb: "Playing intramural or pickup with friends.",
   },
   {
     icon: "🎵",
@@ -166,15 +161,20 @@ export const interests: Interest[] = [
     title: "Reading",
     blurb: "Sci-fi, design, and the odd business book.",
   },
+    {
+    icon: "🧊",
+    title: "Cubing",
+    blurb: "PR: 12 seconds.",
+  },
   {
     icon: "🎮",
     title: "Gaming",
-    blurb: "Strategy and story-driven games when there's time.",
+    blurb: "Lately chess, but I love all types of games.",
   },
   {
     icon: "☕",
     title: "Coffee",
-    blurb: "An ongoing search for the perfect pour-over.",
+    blurb: "Always open to cafe recommendations.",
   },
 ];
 
