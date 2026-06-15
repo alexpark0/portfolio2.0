@@ -15,8 +15,7 @@ export default function Contact() {
 
       <Reveal className="text-center">
         <p className="mx-auto max-w-md text-lg leading-relaxed text-muted">
-          I&apos;m always happy to talk about new opportunities, interesting
-          projects, or just to connect. My inbox is open — let&apos;s chat.
+          Feel free to reach out!
         </p>
 
         <a

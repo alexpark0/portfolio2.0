@@ -5,10 +5,11 @@ import { profile, contact } from "../data";
 import Image from "next/image";
 
 const ROLES = [
-  profile.role,
-  "Problem Solver",
-  "Lifelong Learner",
-  "Builder",
+  "Coding",
+  "Hooping",
+  "Gaming",
+  "Cubing",
+  "Exploring",
 ];
 
 /** Typewriter that cycles through ROLES. */

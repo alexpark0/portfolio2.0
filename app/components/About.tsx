@@ -1,6 +1,7 @@
 import { profile, skills } from "../data";
 import SectionHeading from "./SectionHeading";
 import Reveal from "./Reveal";
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -33,7 +34,7 @@ export default function About() {
         {/* secondary photo placeholder */}
         <Reveal delay={150} className="group relative mx-auto w-full max-w-xs">
           <div className="glow-card grid aspect-square place-items-center rounded-2xl">
-            {/* Replace with <Image src="/about.jpg" fill className="rounded-2xl object-cover" /> */}
+            <Image src="/IMG_6602.jpeg" alt="..." fill className="rounded-2xl object-cover" />
             <div className="text-center">
               <div className="text-4xl">🖼️</div>
               <p className="mt-2 text-sm text-muted">

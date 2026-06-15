@@ -8,12 +8,11 @@
    ================================================================== */
 
 export const profile = {
-  name: "Alex Park",
-  role: "Software Engineer", // <- your headline / title
+  name: "Alexander Park",
+  role: "Software Engineer",
   tagline:
     "CS/AI @ Northeastern",
-  location: "New York, NY / Boston, MA", // <- e.g. "San Francisco, CA"
-  // Short paragraphs for the About section
+  location: "New York, NY / Boston, MA",
   about: [
     "I'm Alex Park, a Computer Science Student at Northeastern University concentrating in artificial intelligence.",
     "In my free time, I love playing basketball, lifting weights, exploring cafes, and playing games.",
@@ -24,8 +23,7 @@ export const profile = {
 export const contact = {
   email: "park.ale@northeastern.edu",
   linkedin: "https://www.linkedin.com/in/alex-park-/",
-  github: "https://github.com/alexpark0", // <- update if different
-  // Add or remove as you like
+  github: "https://github.com/alexpark0",
 };
 
 /* ---- Work / project experience ----------------------------------
