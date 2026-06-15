@@ -90,18 +90,17 @@ export default function Hero() {
       {/* Right: photo placeholder */}
       <div className="relative shrink-0">
         <div
-          className="grid h-60 w-60 place-items-center rounded-full border border-border-subtle bg-bg-soft text-center sm:h-72 sm:w-72"
+          className="relative h-60 w-60 overflow-hidden rounded-full border border-border-subtle bg-bg-soft sm:h-72 sm:w-72"
           style={{ animation: "pulse-ring 3.5s ease-out infinite" }}
         >
-          <Image src="/IMG_9467.jpeg" alt="..." fill className="rounded-full object-cover" />
-          <div className="px-6">
-            <div className="text-4xl">📸</div>
-            <p className="mt-2 text-sm text-muted">
-              Your photo here
-              <br />
-              <span className="font-mono text-xs">/public/me.jpg</span>
-            </p>
-          </div>
+          <Image
+            src="/IMG_9467.jpeg"
+            alt={profile.name}
+            fill
+            priority
+            sizes="(min-width: 640px) 18rem, 15rem"
+            className="object-cover"
+          />
         </div>
         {/* rotating gradient ring */}
         <div

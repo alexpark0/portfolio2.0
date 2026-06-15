@@ -31,18 +31,16 @@ export default function About() {
           </div>
         </Reveal>
 
-        {/* secondary photo placeholder */}
+        {/* secondary photo */}
         <Reveal delay={150} className="group relative mx-auto w-full max-w-xs">
-          <div className="glow-card grid aspect-square place-items-center rounded-2xl">
-            <Image src="/IMG_6602.jpeg" alt="..." fill className="rounded-2xl object-cover" />
-            <div className="text-center">
-              <div className="text-4xl">🖼️</div>
-              <p className="mt-2 text-sm text-muted">
-                Candid / workspace photo
-                <br />
-                <span className="font-mono text-xs">/public/about.jpg</span>
-              </p>
-            </div>
+          <div className="glow-card relative aspect-square overflow-hidden rounded-2xl">
+            <Image
+              src="/IMG_6602.jpeg"
+              alt={profile.name}
+              fill
+              sizes="20rem"
+              className="object-cover transition-transform duration-500 group-hover:scale-105"
+            />
           </div>
         </Reveal>
       </div>

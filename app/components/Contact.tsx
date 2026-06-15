@@ -11,7 +11,7 @@ const socials = [
 export default function Contact() {
   return (
     <section id="contact" className="mx-auto max-w-3xl scroll-mt-24 px-6 py-28">
-      <SectionHeading index="04." title="Get In Touch" />
+      <SectionHeading index="05." title="Get In Touch" />
 
       <Reveal className="text-center">
         <p className="mx-auto max-w-md text-lg leading-relaxed text-muted">

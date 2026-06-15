@@ -37,6 +37,9 @@ export type ExperienceItem = {
   description: string;
   highlights: string[];
   accent: "maroon" | "blue";
+  /** Optional company logo, e.g. "/logos/verisk.png" (drop file in /public/logos).
+      If omitted, the company initials are shown instead. */
+  logo?: string;
 };
 
 export const experience: ExperienceItem[] = [
@@ -78,6 +81,55 @@ export const experience: ExperienceItem[] = [
       "Mapped coordinates of input fields on dry blood spot cards used for newborn screening using React and GIMP"
     ],
     accent: "maroon",
+    // logo: "/logos/revvity.png",
+  },
+];
+
+/* ---- Projects ----------------------------------------------------
+   Showcase work, side projects, or hackathons. `image` is optional —
+   drop a screenshot in /public and reference it (e.g. "/projects/foo.png").
+   If omitted, a styled placeholder is shown instead.
+   ------------------------------------------------------------------ */
+export type ProjectItem = {
+  title: string;
+  description: string;
+  tags: string[];
+  image?: string;
+  github?: string;
+  demo?: string;
+  accent: "maroon" | "blue";
+};
+
+export const projects: ProjectItem[] = [
+  {
+    title: "Project One",
+    description:
+      "Placeholder project — describe what it does, the problem it solves, and your role. Add a screenshot path to show it off.",
+    tags: ["React", "TypeScript", "Node.js"],
+    // image: "/projects/project-one.png",
+    github: "https://github.com/alexpark0",
+    demo: "",
+    accent: "blue",
+  },
+  {
+    title: "Project Two",
+    description:
+      "Another placeholder project. Swap in something from your GitHub or a hackathon build.",
+    tags: ["Python", "PyTorch", "ML"],
+    // image: "/projects/project-two.png",
+    github: "https://github.com/alexpark0",
+    demo: "",
+    accent: "maroon",
+  },
+  {
+    title: "Project Three",
+    description:
+      "A third placeholder. Add as many as you like — the grid will reflow automatically.",
+    tags: ["Next.js", "Tailwind"],
+    // image: "/projects/project-three.png",
+    github: "https://github.com/alexpark0",
+    demo: "",
+    accent: "blue",
   },
 ];
 
@@ -88,6 +140,9 @@ export type Interest = {
   icon: string;
   title: string;
   blurb: string;
+  /** Optional photo, e.g. "/interests/basketball.jpg" (drop file in /public).
+      If omitted, a styled placeholder with the icon is shown. */
+  image?: string;
 };
 
 export const interests: Interest[] = [
